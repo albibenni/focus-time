@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B35DBB4D2A7E892F00BA4015 /* focus_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DBB4C2A7E892F00BA4015 /* focus_timeApp.swift */; };
+		B35DBB4F2A7E892F00BA4015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DBB4E2A7E892F00BA4015 /* ContentView.swift */; };
+		B35DBB512A7E893100BA4015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35DBB502A7E893100BA4015 /* Assets.xcassets */; };
+		B35DBB542A7E893100BA4015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35DBB532A7E893100BA4015 /* Preview Assets.xcassets */; };
+		B35DBB5F2A7E893100BA4015 /* focus_timeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DBB5E2A7E893100BA4015 /* focus_timeTests.swift */; };
+		B35DBB692A7E893100BA4015 /* focus_timeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DBB682A7E893100BA4015 /* focus_timeUITests.swift */; };
+		B35DBB6B2A7E893100BA4015 /* focus_timeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35DBB6A2A7E893100BA4015 /* focus_timeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B35DBB5B2A7E893100BA4015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35DBB412A7E892F00BA4015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35DBB482A7E892F00BA4015;
+			remoteInfo = "focus-time";
+		};
+		B35DBB652A7E893100BA4015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35DBB412A7E892F00BA4015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35DBB482A7E892F00BA4015;
+			remoteInfo = "focus-time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B35DBB492A7E892F00BA4015 /* focus-time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "focus-time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35DBB4C2A7E892F00BA4015 /* focus_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_timeApp.swift; sourceTree = "<group>"; };
+		B35DBB4E2A7E892F00BA4015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B35DBB502A7E893100BA4015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35DBB532A7E893100BA4015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B35DBB552A7E893100BA4015 /* focus_time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = focus_time.entitlements; sourceTree = "<group>"; };
+		B35DBB5A2A7E893100BA4015 /* focus-timeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "focus-timeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35DBB5E2A7E893100BA4015 /* focus_timeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_timeTests.swift; sourceTree = "<group>"; };
+		B35DBB642A7E893100BA4015 /* focus-timeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "focus-timeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35DBB682A7E893100BA4015 /* focus_timeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_timeUITests.swift; sourceTree = "<group>"; };
+		B35DBB6A2A7E893100BA4015 /* focus_timeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focus_timeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35DBB462A7E892F00BA4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB572A7E893100BA4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB612A7E893100BA4015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B35DBB402A7E892F00BA4015 = {
+			isa = PBXGroup;
+			children = (
+				B35DBB4B2A7E892F00BA4015 /* focus-time */,
+				B35DBB5D2A7E893100BA4015 /* focus-timeTests */,
+				B35DBB672A7E893100BA4015 /* focus-timeUITests */,
+				B35DBB4A2A7E892F00BA4015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B35DBB4A2A7E892F00BA4015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35DBB492A7E892F00BA4015 /* focus-time.app */,
+				B35DBB5A2A7E893100BA4015 /* focus-timeTests.xctest */,
+				B35DBB642A7E893100BA4015 /* focus-timeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35DBB4B2A7E892F00BA4015 /* focus-time */ = {
+			isa = PBXGroup;
+			children = (
+				B35DBB4C2A7E892F00BA4015 /* focus_timeApp.swift */,
+				B35DBB4E2A7E892F00BA4015 /* ContentView.swift */,
+				B35DBB502A7E893100BA4015 /* Assets.xcassets */,
+				B35DBB552A7E893100BA4015 /* focus_time.entitlements */,
+				B35DBB522A7E893100BA4015 /* Preview Content */,
+			);
+			path = "focus-time";
+			sourceTree = "<group>";
+		};
+		B35DBB522A7E893100BA4015 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B35DBB532A7E893100BA4015 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B35DBB5D2A7E893100BA4015 /* focus-timeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B35DBB5E2A7E893100BA4015 /* focus_timeTests.swift */,
+			);
+			path = "focus-timeTests";
+			sourceTree = "<group>";
+		};
+		B35DBB672A7E893100BA4015 /* focus-timeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B35DBB682A7E893100BA4015 /* focus_timeUITests.swift */,
+				B35DBB6A2A7E893100BA4015 /* focus_timeUITestsLaunchTests.swift */,
+			);
+			path = "focus-timeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35DBB482A7E892F00BA4015 /* focus-time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35DBB6E2A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-time" */;
+			buildPhases = (
+				B35DBB452A7E892F00BA4015 /* Sources */,
+				B35DBB462A7E892F00BA4015 /* Frameworks */,
+				B35DBB472A7E892F00BA4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "focus-time";
+			productName = "focus-time";
+			productReference = B35DBB492A7E892F00BA4015 /* focus-time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B35DBB592A7E893100BA4015 /* focus-timeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35DBB712A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-timeTests" */;
+			buildPhases = (
+				B35DBB562A7E893100BA4015 /* Sources */,
+				B35DBB572A7E893100BA4015 /* Frameworks */,
+				B35DBB582A7E893100BA4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35DBB5C2A7E893100BA4015 /* PBXTargetDependency */,
+			);
+			name = "focus-timeTests";
+			productName = "focus-timeTests";
+			productReference = B35DBB5A2A7E893100BA4015 /* focus-timeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B35DBB632A7E893100BA4015 /* focus-timeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35DBB742A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-timeUITests" */;
+			buildPhases = (
+				B35DBB602A7E893100BA4015 /* Sources */,
+				B35DBB612A7E893100BA4015 /* Frameworks */,
+				B35DBB622A7E893100BA4015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35DBB662A7E893100BA4015 /* PBXTargetDependency */,
+			);
+			name = "focus-timeUITests";
+			productName = "focus-timeUITests";
+			productReference = B35DBB642A7E893100BA4015 /* focus-timeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35DBB412A7E892F00BA4015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B35DBB482A7E892F00BA4015 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B35DBB592A7E893100BA4015 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B35DBB482A7E892F00BA4015;
+					};
+					B35DBB632A7E893100BA4015 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B35DBB482A7E892F00BA4015;
+					};
+				};
+			};
+			buildConfigurationList = B35DBB442A7E892F00BA4015 /* Build configuration list for PBXProject "focus-time" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35DBB402A7E892F00BA4015;
+			productRefGroup = B35DBB4A2A7E892F00BA4015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35DBB482A7E892F00BA4015 /* focus-time */,
+				B35DBB592A7E893100BA4015 /* focus-timeTests */,
+				B35DBB632A7E893100BA4015 /* focus-timeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35DBB472A7E892F00BA4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35DBB542A7E893100BA4015 /* Preview Assets.xcassets in Resources */,
+				B35DBB512A7E893100BA4015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB582A7E893100BA4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB622A7E893100BA4015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35DBB452A7E892F00BA4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35DBB4F2A7E892F00BA4015 /* ContentView.swift in Sources */,
+				B35DBB4D2A7E892F00BA4015 /* focus_timeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB562A7E893100BA4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35DBB5F2A7E893100BA4015 /* focus_timeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35DBB602A7E893100BA4015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35DBB6B2A7E893100BA4015 /* focus_timeUITestsLaunchTests.swift in Sources */,
+				B35DBB692A7E893100BA4015 /* focus_timeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B35DBB5C2A7E893100BA4015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35DBB482A7E892F00BA4015 /* focus-time */;
+			targetProxy = B35DBB5B2A7E893100BA4015 /* PBXContainerItemProxy */;
+		};
+		B35DBB662A7E893100BA4015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35DBB482A7E892F00BA4015 /* focus-time */;
+			targetProxy = B35DBB652A7E893100BA4015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B35DBB6C2A7E893100BA4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B35DBB6D2A7E893100BA4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B35DBB6F2A7E893100BA4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "focus-time/focus_time.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"focus-time/Preview Content\"";
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B35DBB702A7E893100BA4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "focus-time/focus_time.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"focus-time/Preview Content\"";
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B35DBB722A7E893100BA4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-timeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focus-time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/focus-time";
+			};
+			name = Debug;
+		};
+		B35DBB732A7E893100BA4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-timeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focus-time.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/focus-time";
+			};
+			name = Release;
+		};
+		B35DBB752A7E893100BA4015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-timeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "focus-time";
+			};
+			name = Debug;
+		};
+		B35DBB762A7E893100BA4015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVZG5QKT42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.benni.focus-timeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "focus-time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35DBB442A7E892F00BA4015 /* Build configuration list for PBXProject "focus-time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35DBB6C2A7E893100BA4015 /* Debug */,
+				B35DBB6D2A7E893100BA4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35DBB6E2A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35DBB6F2A7E893100BA4015 /* Debug */,
+				B35DBB702A7E893100BA4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35DBB712A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-timeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35DBB722A7E893100BA4015 /* Debug */,
+				B35DBB732A7E893100BA4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35DBB742A7E893100BA4015 /* Build configuration list for PBXNativeTarget "focus-timeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35DBB752A7E893100BA4015 /* Debug */,
+				B35DBB762A7E893100BA4015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35DBB412A7E892F00BA4015 /* Project object */;
+}
